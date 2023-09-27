@@ -1,0 +1,37 @@
+{
+  "name": "kairos-api-client",
+  "version": "1.0.0",
+  "description": "The Node.js client for the Kairos face recognition API with proxy support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazarstanev95/kairos-api-client.git"
+  },
+  "keywords": [
+    "kairos",
+    "face",
+    "recognition"
+  ],
+  "author": "Lazar Stanev <lazarstanev95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazarstanev95/kairos-api-client/issues"
+  },
+  "homepage": "https://github.com/lazarstanev95/kairos-api-client#readme",
+  "dependencies": {
+    "https-proxy-agent": "7.0.2",
+    "log4js": "6.9.1",
+    "superagent": "8.1.2",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/superagent": "4.1.19"
+  }
+}
