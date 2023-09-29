@@ -10,7 +10,7 @@ Kairos is a simple concept—you submit images into our API, and our deep learni
 ## Installation
 
 ```
-npm install kairos-api
+npm install kairos-api-client
 ```
 
 ## Usage
@@ -39,3 +39,12 @@ async function KairosClient() {
 
 KairosClient();
 ```
+### Functions
+
+- kairos.enroll(params)
+- kairos.recognize(params)
+- kairos.detect(params)
+- kairos.galleryListAll()
+- kairos.galleryView(params)
+- kairos.galleryRemove(params)
+- kairos.galleryRemoveSubject(params)
